@@ -1,0 +1,73 @@
+body{
+	padding: 200px;
+	text-align: center;
+	font-family: times;
+	padding-top: 10px;
+	background-color: pink;
+	
+}
+.wide{
+	width: 100%;
+	
+}
+.bar{
+	width: 100%;
+	height: 30px;
+
+	background-color: black;
+	color: white;
+	display: block;
+	letter-spacing: 3px;
+	text-align: right;
+
+}
+.hidden{
+	color: pink;
+	background-color: pink;
+}
+.container{
+	width: 50%;
+	float: left;
+	display: inline;
+	text-align: left;
+}
+.left{
+	text-align: right;
+}
+
+
+
+.img{
+	width: 30%;
+	margin: 20px;
+}
+.up{
+	font-weight: bolder;
+}
+p{
+	text-align: left;
+	margin-top: 20px;
+}
+li{
+	text-align: left;
+	margin-top: 15px;
+}
+hr{
+	margin-top: 30px;
+}
+
+
+
+
+@media (max-width:900px) {
+	body{
+		padding: 5px;
+	}
+	.img{
+		width: 100%;
+	}
+	.up{
+		font-size: 12px;
+	}
+
+}
